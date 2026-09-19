@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Anonymous Chat',
   description: 'Random 1-on-1 text chat',
+  verification: {
+    google: 'PASTE_YOUR_COPIED_GOOGLE_STRING_HERE',
+  },
 }
 
 export default function RootLayout({ children }) {
