@@ -1,17 +1,14 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Anonymous Chat',
-  description: 'Random 1-on-1 text chat',
-  verification: {
-    google: 'PASTE_YOUR_COPIED_GOOGLE_STRING_HERE',
-  },
-}
+  title: 'Talk with randoms (TWR)',
+  description: '100% Anonymous 1-on-1 Chat',
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, padding: 0 }}>{children}</body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
