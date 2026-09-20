@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: 'Anonymous Chat',
   description: 'Random 1-on-1 text chat',
